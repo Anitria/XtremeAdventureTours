@@ -1,0 +1,164 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E0F7FA; /* light blue background */
+  color: #004D40; /* dark green text */
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header Styles */
+header {
+  background: #00796B; /* dark green background */
+  color: #FFFFFF;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #004D40 3px solid;
+}
+
+header a {
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header ul {
+  padding: 0;
+  list-style: none;
+}
+
+header li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header h1 {
+  float: left;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.login-container {
+  float: right;
+  margin-top: 20px;
+}
+
+.login-container input {
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.login-container button {
+  background: #004D40; /* dark green background */
+  color: #FFFFFF;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.login-container button:hover {
+  background: #00796B; /* lighter green background */
+}
+
+/* Hero Section */
+.hero {
+  background: #B2DFDB; /* seafoam green background */
+  color: #004D40;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero .btn {
+  background: #004D40; /* dark green background */
+  color: #FFFFFF;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.hero .btn:hover {
+  background: #00796B; /* lighter green background */
+}
+
+/* Featured Tours Section */
+.featured-tours {
+  background: #E0F7FA; /* light blue background */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.featured-tours h2 {
+  margin: 0 0 20px;
+  color: #004D40;
+}
+
+.tour-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tour-card {
+  background: #FFFFFF;
+  border: 1px solid #B2DFDB;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  flex: 1;
+  max-width: 300px;
+}
+
+.tour-card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.tour-card h3 {
+  color: #004D40;
+}
+
+.tour-card p {
+  color: #00796B;
+}
+
+.tour-card .btn {
+  background: #004D40; /* dark green background */
+  color: #FFFFFF;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.tour-card .btn:hover {
+  background: #00796B; /* lighter green background */
+}
+
+/* Footer Styles */
+footer {
+  background: #004D40; /* dark green background */
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}

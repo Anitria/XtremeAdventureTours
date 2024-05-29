@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xtreme Adventure Tours</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Xtreme Adventure Tours</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Tours</a></li>
+                    <li><a href="#">Bookings</a></li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="login-container">
+                <input type="text" id="username" placeholder="Enter username">
+                <input type="password" id="password" placeholder="Enter password">
+                <button id="login-btn">Login</button>
+                <button id="logout-btn" style="display:none;">Logout</button>
+                <button id="forgot-password-btn">Forgot Password</button>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h2>Explore the World with Us</h2>
+            <p>Discover exciting adventures and create unforgettable memories.</p>
+            <a href="#" class="btn">Book Now</a>
+        </div>
+    </section>
+    <section class="featured-tours">
+        <div class="container">
+            <h2>Featured Tours</h2>
+            <div class="tour-grid">
+                <div class="tour-card">
+                    <img src="tour1.jpg" alt="Tour 1">
+                    <h3>Mountain Expedition</h3>
+                    <p>Join us for a thrilling mountain adventure.</p>
+                    <a href="#" class="btn book-btn" id="book-tour1">Book Now</a>
+                </div>
+                <div class="tour-card">
+                    <img src="tour2.jpg" alt="Tour 2">
+                    <h3>Desert Safari</h3>
+                    <p>Experience the excitement of a desert safari.</p>
+                    <a href="#" class="btn book-btn" id="book-tour2">Book Now</a>
+                </div>
+                <div class="tour-card">
+                    <img src="tour3.jpg" alt="Tour 3">
+                    <h3>Jungle Trekking</h3>
+                    <p>Explore the mysteries of the jungle.</p>
+                    <a href="#" class="btn book-btn" id="book-tour3">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Xtreme Adventure Tours. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
