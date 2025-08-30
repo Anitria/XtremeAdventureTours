@@ -3,7 +3,7 @@
 Live site: [https://anitria.github.io/XtremeAdventureTours/](https://anitria.github.io/XtremeAdventureTours/)
 
 A fun, colorful static website built with **HTML, CSS, and JavaScript** to promote adventure travel packages.  
-This project was developed as part of my **Web Development coursework at DePaul University (Spring 2025)**.
+This project was developed as part of my **Web Development coursework at DePaul University (Fall 2024-2025)**.
 
 ---
 
