@@ -1,71 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Xtreme Adventure Tours</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
     <header>
-        <div class="container">
-            <h1>Xtreme Adventure Tours</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Tours</a></li>
-                    <li><a href="#">Bookings</a></li>
-                    <li><a href="#">My Account</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </nav>
-            <div class="login-container">
-                <input type="text" id="username" placeholder="Enter username">
-                <input type="password" id="password" placeholder="Enter password">
-                <button id="login-btn">Login</button>
-                <button id="logout-btn" style="display:none;">Logout</button>
-                <button id="forgot-password-btn">Forgot Password</button>
-            </div>
-        </div>
+      <h1 class="logo">Xtreme Adventure Tours 🎒</h1>
+      <nav>
+        <a href="#tours">Tours</a>
+        <a href="#about">About</a>
+        <a href="#book">Book</a>
+      </nav>
     </header>
+
+    <!-- HERO -->
     <section class="hero">
-        <div class="container">
-            <h2>Explore the World with Us</h2>
-            <p>Discover exciting adventures and create unforgettable memories.</p>
-            <a href="#" class="btn">Book Now</a>
-        </div>
+      <img src="images/hero.jpg" alt="Adventure Hero" class="hero-img" />
+      <div class="hero-text">
+        <h2>Explore. Dream. Discover.</h2>
+        <p>Adventures that make your heart race and your soul smile 🌍✨</p>
+        <a href="#book" class="btn">Start Your Journey</a>
+      </div>
     </section>
-    <section class="featured-tours">
-        <div class="container">
-            <h2>Featured Tours</h2>
-            <div class="tour-grid">
-                <div class="tour-card">
-                    <img src="tour1.jpg" alt="Tour 1">
-                    <h3>Mountain Expedition</h3>
-                    <p>Join us for a thrilling mountain adventure.</p>
-                    <a href="#" class="btn book-btn" id="book-tour1">Book Now</a>
-                </div>
-                <div class="tour-card">
-                    <img src="tour2.jpg" alt="Tour 2">
-                    <h3>Desert Safari</h3>
-                    <p>Experience the excitement of a desert safari.</p>
-                    <a href="#" class="btn book-btn" id="book-tour2">Book Now</a>
-                </div>
-                <div class="tour-card">
-                    <img src="tour3.jpg" alt="Tour 3">
-                    <h3>Jungle Trekking</h3>
-                    <p>Explore the mysteries of the jungle.</p>
-                    <a href="#" class="btn book-btn" id="book-tour3">Book Now</a>
-                </div>
-            </div>
-        </div>
+
+    <!-- TOURS -->
+    <main id="tours">
+      <h2 class="section-title">Featured Tours</h2>
+      <section class="cards">
+        <article class="card">
+          <img src="images/tour-mountain.jpg" alt="Mountain Expedition" />
+          <h3>🏔️ Mountain Expedition</h3>
+          <p>Summit peaks and share stories under starry skies.</p>
+        </article>
+
+        <article class="card">
+          <img src="images/tour-desert.jpg" alt="Desert Safari" />
+          <h3>🏜️ Desert Safari</h3>
+          <p>Ride dunes, chase sunsets, and camp in golden sands.</p>
+        </article>
+
+        <article class="card">
+          <img src="images/tour-jungle.jpg" alt="Jungle Trekking" />
+          <h3>🌴 Jungle Trekking</h3>
+          <p>Discover waterfalls, wildlife, and hidden jungle paths.</p>
+        </article>
+      </section>
+    </main>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+      <h2>Why Choose Us?</h2>
+      <p>
+        Because adventure should be safe, fun, and unforgettable. Our guides are
+        experts who bring excitement and care to every trip 🧭.
+      </p>
     </section>
+
+    <!-- BOOKING -->
+    <section id="book" class="booking">
+      <h2>Book Your Adventure 🎟️</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <select required>
+          <option value="">Choose a Tour</option>
+          <option>Mountain Expedition</option>
+          <option>Desert Safari</option>
+          <option>Jungle Trekking</option>
+        </select>
+        <button type="submit" class="btn">Reserve Now</button>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Xtreme Adventure Tours. All rights reserved.</p>
-        </div>
+      <p>© 2025 Xtreme Adventure Tours 🌟</p>
     </footer>
 
     <script src="scripts.js"></script>
-</body>
+  </body>
 </html>
+
